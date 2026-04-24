@@ -62,11 +62,6 @@ int main(int argc, char *argv[])
 		return 1;		
 	}
 	int n = atoi(argv[1]);
-	if(n < 4)
-	{
-		printf("+0\n");
-		return 1;
-	}
 	int queens[20];
 	my_queen(queens,0,n);
 	return 0;
