@@ -57,10 +57,7 @@ void my_queen(int *queens, int col, int n)
 int main(int argc, char *argv[])
 {
 	if(argc != 2)
-	{
-		printf("+0\n");
 		return 1;		
-	}
 	int n = atoi(argv[1]);
 	int queens[20];
 	my_queen(queens,0,n);
